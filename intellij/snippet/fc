@@ -1,0 +1,15 @@
+import React, { FC, ReactNode } from 'react';
+
+interface PropTypes {
+  children?: ReactNode;
+  $END$
+}
+
+const $FILE_NAME$: FC<PropTypes> = (props: PropTypes) => {
+  return (<>
+    
+  </>);
+};
+
+export default $FILE_NAME$;
+
