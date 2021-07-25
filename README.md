@@ -16,6 +16,8 @@ https://github.com/nvm-sh/nvm
 # install yarn
 brew install yarn --without-no-dependencies
 
+# install yarn-check
+yarn global add yarn-check
+
 # install nest cli
 yarn global add @nestjs/cli
-
