@@ -1,0 +1,7 @@
+alias ycu="yarn-check -u"
+alias yi="yarn install"
+alias ys="yarn run start"
+alias yd="yarn run dev"
+alias yb="yarn run build"
+alias gd="git pull origin dev && ggcc"
+alias ggcc="git branch --merged | grep -v \* | xargs git branch -D "
