@@ -1,5 +1,7 @@
 # setting default env
 
+# install iterm
+https://iterm2.com/
 
 # install brew
 https://brew.sh/index_ko
