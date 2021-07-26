@@ -1,32 +1,32 @@
 # setting default env
 
-# install iterm
+## install iterm
 https://iterm2.com/
 
-# install brew
+## install brew
 https://brew.sh/index_ko
 
-# install git
+## install git
 brew install git
 
-# install oh-my-zsh
+## install oh-my-zsh
 https://github.com/ohmyzsh/ohmyzsh
 
-# install nvm
+## install nvm
 https://github.com/nvm-sh/nvm
 
-# install yarn
+## install yarn
 brew install yarn --without-no-dependencies
 
-# install yarn-check
+## install yarn-check
 yarn global add yarn-check
 
-# install nest cli
+## install nest cli
 yarn global add @nestjs/cli
 
-# install si
+## install sip (color picker)
 https://sipapp.io/updates/#2.5
 
-# install dbeaver
+## install dbeaver
 https://dbeaver.io/
 
