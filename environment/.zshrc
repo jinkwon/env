@@ -5,6 +5,9 @@ alias yd="yarn run dev"
 alias yb="yarn run build"
 alias gd="git pull origin dev && ggcc"
 alias ggcc="git branch --merged | grep -v \* | xargs git branch -D "
+alias kp="sudo lsof -t -i tcp:11002 | xargs kill -9"
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 prompt_context() {
   if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
