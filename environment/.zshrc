@@ -11,13 +11,6 @@ alias kp="lsof -t -i tcp:11002 | xargs kill -9"
 # brew install zsh-syntax-highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-# 프롬프트 사용자 이름 삭제
-prompt_context() {
-  if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)$USER"
-  fi
-}
-
 # NVM 
 export NVM_DIR="$HOME/.nvm"
   [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
