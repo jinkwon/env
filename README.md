@@ -14,15 +14,15 @@ https://github.com/ohmyzsh/ohmyzsh
 
 ## install nvm
 https://github.com/nvm-sh/nvm
+```
+nvm install 14
+```
 
 ## install yarn
 brew install yarn --without-no-dependencies
 
-## install yarn-check
-yarn global add yarn-check
-
-## install nest cli
-yarn global add @nestjs/cli
+## install node packages
+yarn global add yarn-check @nestjs/cli
 
 ## install sip (color picker)
 https://sipapp.io/updates/#2.5
