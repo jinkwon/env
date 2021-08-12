@@ -18,10 +18,12 @@ https://github.com/ohmyzsh/ohmyzsh
 git clone https://github.com/romkatv/powerlevel10k.git 
 ```
 
-## install nvm
+## install nvm & node
+/usr/local/bin/node 는 나중에 react native를 위해 연결해둠
 ```
 brew install nvm
 nvm install 14
+ln -s $(which node) /usr/local/bin/node
 ```
 
 ## install yarn
