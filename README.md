@@ -28,10 +28,14 @@ ln -s $(which node) /usr/local/bin/node
 
 ## install yarn
 brew로 yarn 설치하면 이슈가 있음. node version 이 꼬임.
+```
 npm install -g yarn
+```
 
 ## install node packages
+```
 yarn global add yarn-check @nestjs/cli
+```
 
 ## install sip (color picker)
 https://sipapp.io/updates/#2.5
