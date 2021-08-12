@@ -18,7 +18,6 @@ https://github.com/ohmyzsh/ohmyzsh
 git clone https://github.com/romkatv/powerlevel10k.git 
 ```
 
-
 ## install nvm
 ```
 brew install nvm
@@ -26,7 +25,8 @@ nvm install 14
 ```
 
 ## install yarn
-brew install yarn --without-no-dependencies
+brew로 yarn 설치하면 이슈가 있음. node version 이 꼬임.
+npm install -g yarn
 
 ## install node packages
 yarn global add yarn-check @nestjs/cli
