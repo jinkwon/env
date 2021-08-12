@@ -20,8 +20,8 @@ git clone https://github.com/romkatv/powerlevel10k.git
 
 
 ## install nvm
-brew install nvm
 ```
+brew install nvm
 nvm install 14
 ```
 
