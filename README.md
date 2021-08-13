@@ -8,8 +8,8 @@ https://iterm2.com/
 https://brew.sh/index_ko
 
 
-## install git
-brew install git
+## install git, wget
+brew install git wget
 
 
 ## install oh-my-zsh
