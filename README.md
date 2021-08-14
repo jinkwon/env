@@ -21,6 +21,9 @@ yarn global add yarn-check @nestjs/cli
 
 ## install oh-my-zsh
 https://github.com/ohmyzsh/ohmyzsh
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 ## clone env
 git clone https://github.com/Jinkwon/env ~/env
