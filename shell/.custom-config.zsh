@@ -23,7 +23,9 @@ alias ssh-ad="ssh ubuntu@unicorn.alpha.db"
 alias ssh-as="ssh ubuntu@unicorn.alpha.server"
 
 # kill
-alias kp="lsof -t -i tcp:$1 | xargs kill -9"
+kp(){
+  lsof -t -i tcp:$1 | xargs kill -9
+}
 kn(){
   kill -9 `ps -ef | grep $1 | awk "{print $2}"`
 }
