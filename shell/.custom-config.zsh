@@ -1,3 +1,8 @@
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+source ~/._env/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
 alias ycu="yarn-check -u"
 alias yi="yarn install"
 alias ys="yarn run start"
@@ -12,9 +17,3 @@ alias myhelp="ccat ~/.custom-config.zsh"
 kn(){
   kill -9 `ps -ef | grep $1 | awk '{print $2}'`
 }
-
-source ~/._env/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && . "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && . "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
