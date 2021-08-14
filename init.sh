@@ -1,3 +1,4 @@
+rm -rf ~/.custom-config.zsh ~/.gitconfig ~/.gitignore ~/.vimrc ~/.vim ~/._env
 cp -a ~/env/shell/ ~
 rm -rf ~/.oh-my-zsh/themes/powerlevel10k
 rm -rf ~/._env/zsh-syntax-highlighting
