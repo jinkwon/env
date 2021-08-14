@@ -29,6 +29,8 @@ chmod 700 .env-init.sh
 // init
 ./.env-init.sh
 
+// 터미널 껐다 켜기 (설정 적용)
+
 // install node
 nvm install 14
 
