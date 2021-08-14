@@ -1,3 +1,3 @@
-LINE='[[ ! -f ~/._env/custom-alias.zsh ]] || source ~/._env/custom-alias.zsh'
+LINE='[[ ! -f ~/._env/custom-config.zsh ]] || source ~/._env/custom-config.zsh'
 FILE='../.zshrc'
 grep -qF -- "$LINE" "$FILE" || echo "$LINE" >> "$FILE"
