@@ -20,14 +20,11 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 // clone env
 git clone https://github.com/Jinkwon/env ~/env
 
-// copy env
-mv -f ~/env/shell/*(DN) ~
-
 // chmod sh
-chmod 700 .env-init.sh
+chmod 700 ~/env/env-init.sh
 
 // init
-./.env-init.sh
+~/env/env-init.sh
 
 // 터미널 껐다 켜기 (설정 적용)
 
