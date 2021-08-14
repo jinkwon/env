@@ -5,7 +5,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/._env/zsh-s
 mkdir ~/.nvm
 
 # set custom zsh config
-LINE='[[ ! -f ~/._env/custom-config.zsh ]] || source ~/._env/custom-config.zsh'
+LINE='[[ ! -f ~/.custom-config.zsh ]] || source ~/.custom-config.zsh'
 FILE='./.zshrc'
 grep -qF -- "$LINE" "$FILE" || echo "$LINE" >> "$FILE"
 
