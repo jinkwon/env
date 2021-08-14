@@ -15,3 +15,6 @@
 [core]
   ignorecase = false
   excludesFiles = /Users/jk/.gitignore
+
+[pull]
+  rebase = false

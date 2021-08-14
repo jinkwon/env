@@ -21,7 +21,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 git clone https://github.com/Jinkwon/env ~/env
 
 // chmod sh
-chmod 700 ~/env/env-init.sh
+chmod 700 ~/env/init.sh ~/env/configure.sh
 
 // init
 ~/env/env-init.sh
