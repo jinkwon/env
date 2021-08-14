@@ -8,41 +8,28 @@ https://iterm2.com/
 https://brew.sh/index_ko
 
 
-## install git, wget
-brew install git wget
-
+## install git, wget, nvm, node, yarn, yarn-check, nest cli
+- /usr/local/bin/node 는 나중에 react native를 위해 연결해둠
+- brew로 yarn 설치하면 이슈가 있음. node version 이 꼬임.
+```
+brew install git wget nvm
+nvm install 14
+ln -s $(which node) /usr/local/bin/node
+npm install -g yarn
+yarn global add yarn-check @nestjs/cli
+```
 
 ## install oh-my-zsh
 https://github.com/ohmyzsh/ohmyzsh
 
+## clone env
+git clone https://github.com/Jinkwon/env ~/env
 
-## install powerlevel10k
-.oh-my-zsh/themes 에 clone 후, .zshrc 의 ZSH_THEME="powerlevel10k/powerlevel10k" 변경.  
-재설정 : p10k configure 
+## copy env & init
 ```
-git clone https://github.com/romkatv/powerlevel10k.git 
-```
-
-
-## install nvm & node
-/usr/local/bin/node 는 나중에 react native를 위해 연결해둠
-```
-brew install nvm
-nvm install 14
-ln -s $(which node) /usr/local/bin/node
-```
-
-
-## install yarn
-brew로 yarn 설치하면 이슈가 있음. node version 이 꼬임.
-```
-npm install -g yarn
-```
-
-
-## install node packages
-```
-yarn global add yarn-check @nestjs/cli
+mv -f ~/env/shell/*(DN) ~
+chmod 700 .env-init.sh
+./.env-init.sh
 ```
 
 
