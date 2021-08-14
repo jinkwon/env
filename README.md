@@ -9,26 +9,38 @@ https://brew.sh/index_ko
 
 
 ## init env
-- /usr/local/bin/node 는 나중에 react native를 위해 연결해둠
-- brew로 yarn 설치하면 이슈가 있음. node version 이 꼬임.
 - 아래 커맨드는 순서대로 수행
 ```
-brew install git wget nvm
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-git clone https://github.com/Jinkwon/env ~/env
-mv -f ~/env/shell/*(DN) ~
-chmod 700 .env-init.sh
-./.env-init.sh
+// install packages
+# brew install git wget nvm
+
+// oh-my-zsh
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+// clone env
+# git clone https://github.com/Jinkwon/env ~/env
+
+// copy env
+# mv -f ~/env/shell/*(DN) ~
+
+// chmod sh
+# chmod 700 .env-init.sh
+
+// init
+# ./.env-init.sh
+
+// install node
 nvm install 14
+
+// /usr/local/bin/node 는 나중에 react native를 위해 연결해둠
 ln -s $(which node) /usr/local/bin/node
+
+// install yarn
+// brew로 yarn 설치하면 이슈가 있음. node version 이 꼬임
 npm install -g yarn
-yarn global add yarn-check @nestjs/cli
-```
 
-## install oh-my-zsh
-https://github.com/ohmyzsh/ohmyzsh
-```
-
+// install addtional node modules
+yarn global add yarn-check @nestjs/cli pm2
 ```
 
 
