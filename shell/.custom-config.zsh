@@ -9,13 +9,16 @@ alias yi="yarn install"
 alias ys="yarn run start"
 alias yd="yarn run dev"
 alias yb="yarn run build"
+
 alias ggcc="git branch --merged | grep -v \* | xargs git branch -D "
 alias gld="git pull origin dev && ggcc"
-alias gh="git push origin $1"
+alias gih="git push origin $1"
+alias gcam="git commit -am $1"
 alias ssh-ad="ssh ubuntu@unicorn.alpha.db"
 alias ssh-as="ssh ubuntu@unicorn.alpha.server"
 alias kp="lsof -t -i tcp:11002 | xargs kill -9"
 alias myhelp="ccat ~/.custom-config.zsh"
+
 kn(){
-  kill -9 `ps -ef | grep $1 | awk '{print $2}'`
+  kill -9 `ps -ef | grep $1 | awk "{print $2}'`
 }
