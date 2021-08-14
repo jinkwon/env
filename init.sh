@@ -1,9 +1,10 @@
 rm -rf ~/.custom-config.zsh ~/.gitconfig ~/.gitignore ~/.vimrc ~/.vim ~/._env
 cp -a ~/env/shell/ ~
 rm -rf ~/.oh-my-zsh/themes/powerlevel10k
-rm -rf ~/._env/zsh-syntax-highlighting
 git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/themes/powerlevel10k
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/._env/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions.git ~/._env/zsh-autosuggestions
+
 mkdir -p ~/.nvm
 
 LINE='[[ ! -f ~/.custom-config.zsh ]] || source ~/.custom-config.zsh'

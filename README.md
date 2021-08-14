@@ -12,7 +12,7 @@ https://brew.sh/index_ko
 - 아래 커맨드는 순서대로 수행
 ```
 // install packages
-brew install git wget nvm ccat
+brew install git wget nvm ccat fzf
 
 // install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
