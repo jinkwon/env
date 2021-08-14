@@ -42,6 +42,7 @@ npm install -g yarn
 yarn global add yarn-check @nestjs/cli pm2
 ```
 
+## powerlevel10k 재설정 : p10k configure
 
 ## install sip (color picker)
 https://sipapp.io/updates/#2.5
