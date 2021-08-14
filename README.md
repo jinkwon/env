@@ -14,6 +14,9 @@ https://brew.sh/index_ko
 // install packages
 brew install git wget nvm
 
+// install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 // clone env
 git clone https://github.com/Jinkwon/env ~/env
 
