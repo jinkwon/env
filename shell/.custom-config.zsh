@@ -29,4 +29,4 @@ kn(){
 }
 
 # etc
-alias myhelp="ccat ~/.custom-config.zsh"
+alias menu="ccat ~/.custom-config.zsh"
