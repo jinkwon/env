@@ -12,22 +12,22 @@ https://brew.sh/index_ko
 - 아래 커맨드는 순서대로 수행
 ```
 // install packages
-# brew install git wget nvm
+brew install git wget nvm
 
 // oh-my-zsh
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 // clone env
-# git clone https://github.com/Jinkwon/env ~/env
+git clone https://github.com/Jinkwon/env ~/env
 
 // copy env
-# mv -f ~/env/shell/*(DN) ~
+mv -f ~/env/shell/*(DN) ~
 
 // chmod sh
-# chmod 700 .env-init.sh
+chmod 700 .env-init.sh
 
 // init
-# ./.env-init.sh
+./.env-init.sh
 
 // install node
 nvm install 14
