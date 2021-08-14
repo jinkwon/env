@@ -12,6 +12,5 @@ alias myhelp="cat ~/._env/custom-alias.zsh"
 kn(){
   kill -9 `ps -ef | grep $1 | awk '{print $2}'`
 }
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
-ZSH_THEME="powerlevel10k/powerlevel10k"
+source ~/._env/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
