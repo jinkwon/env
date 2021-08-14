@@ -1,3 +1,6 @@
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+source ~/.zshrc
+
 cp -f shell/*(DN) ~
 
 rm -rf ~/.oh-my-zsh/themes/powerlevel10k
@@ -14,4 +17,4 @@ grep -qF -- "$LINE" "$FILE" || echo "$LINE" >> "$FILE"
 # replace theme
 sed -i '' 's/ZSH_THEME=.*$/ZSH_THEME="powerlevel10k\/powerlevel10k"/g' ~/.zshrc
 
-source '~/.zshrc'
+source ~/.zshrc
