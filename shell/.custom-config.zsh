@@ -27,7 +27,7 @@ kp(){
   lsof -t -i tcp:$1 | xargs kill -9
 }
 kn(){
-  kill -9 `ps -ef | grep $1 | awk "{print $2}"`
+  kill -9 `ps -ef | grep $1 | awk '{print $2}'`
 }
 
 # etc
