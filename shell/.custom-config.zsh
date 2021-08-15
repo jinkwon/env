@@ -14,6 +14,7 @@ alias yb="yarn run build"
 # git
 alias ggcc="git branch --merged | grep -v \* | xargs git branch -D "
 alias gld="git pull origin dev && ggcc && git fetch -p"
+alias gl="git pull origin $1"
 alias gp="git push origin $1"
 alias gpf="git push origin $1 --force"
 alias gcam="git commit -am $1"
