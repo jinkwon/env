@@ -1,12 +1,10 @@
-# setting default env
+# Front-end developer's env
 
 ## install iterm
 https://iterm2.com/
 
-
 ## install brew
 https://brew.sh/index_ko
-
 
 ## init env
 - 아래 커맨드는 순서대로 수행
@@ -46,7 +44,6 @@ yarn global add yarn-check @nestjs/cli pm2
 
 ## install sip (color picker)
 https://sipapp.io/updates/#2.5
-
 
 ## install dbeaver
 https://dbeaver.io/
