@@ -1,3 +1,4 @@
+brew install ccat fzf wget nvm
 ./configure.sh
 mkdir -p ~/.nvm
 rm -rf ~/._env ~/.oh-my-zsh/themes/powerlevel10k
