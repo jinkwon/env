@@ -56,6 +56,5 @@ cp ./environment/DefaultKeyBinding.dict ~/Library/KeyBindings/
 ## install sip (color picker)
 https://sipapp.io/updates/#2.5
 
-## install dbeaver
-https://dbeaver.io/
-
+## Programs
+see Brewfile
