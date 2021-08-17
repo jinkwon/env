@@ -6,38 +6,36 @@ https://iterm2.com/
 ## install brew
 https://brew.sh/index_ko
 
-## init env
-- 아래 커맨드는 순서대로 수행
+## prepair
 ```
-// install packages
 brew install git
 
 // install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 // clone env
-git clone https://github.com/Jinkwon/env ~/env
+git clone https://github.com/jinkwon/env ~/env
 
 // chmod sh
-chmod 700 ~/env/init.sh ~/env/configure.sh
+chmod 700 ~/env/*.sh
+```
 
+## Run script
+```
 // init
-~/env/env-init.sh
+// 실행 후 터미널 껐다 켜기 (설정 적용)
+~/init.sh
+```
 
-// 터미널 껐다 켜기 (설정 적용)
-
-// install node
+## install node
+```
 nvm install 14
-
 // /usr/local/bin/node 는 나중에 react native를 위해 연결해둠
 ln -s $(which node) /usr/local/bin/node
 
-// install yarn
+// install packages
 // brew로 yarn 설치하면 이슈가 있음. node version 이 꼬임
-npm install -g yarn
-
-// install addtional node modules
-yarn global add yarn-check @nestjs/cli pm2 http-server
+npm install -g yarn yarn-check @nestjs/cli pm2 http-server
 ```
 
 ### MacOS 에서 백쿼트(`) 입력 쉽게 하기
