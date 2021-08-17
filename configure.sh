@@ -44,5 +44,3 @@ initGit() {
 initConfig
 readFile
 askCommand
-cd ~
-source ~/.zshrc
