@@ -51,13 +51,13 @@ mkdir -p ~/Library/KeyBindings
 cp ./environment/DefaultKeyBinding.dict ~/Library/KeyBindings/
 ```
 
-## powerlevel10k 재설정 : p10k configure
-
-## install sip (color picker)
-https://sipapp.io/updates/#2.5
+## powerlevel10k 재설정
+```
+p10k configure
+```
 
 ## Programs
-see Brewfile
+[Brewfile](https://github.com/jinkwon/env/blob/master/Brewfile)
 
 
 ## cli tools
