@@ -37,7 +37,7 @@ ln -s $(which node) /usr/local/bin/node
 npm install -g yarn
 
 // install addtional node modules
-yarn global add yarn-check @nestjs/cli pm2
+yarn global add yarn-check @nestjs/cli pm2 http-server
 ```
 
 ### MacOS 에서 백쿼트(`) 입력 쉽게 하기
