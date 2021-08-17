@@ -3,3 +3,4 @@
 .DS_Store
 .idea
 private.json
+Brewfile.lock.json
