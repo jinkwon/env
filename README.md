@@ -27,6 +27,11 @@ chmod 700 ~/env/*.sh
 ~/init.sh
 ```
 
+## help page (run in shell)
+```
+menu
+```
+
 ## install node
 ```
 nvm install 14
