@@ -1,7 +1,3 @@
-[user]
-  name = jinkwon.lee
-  email = uzmystic@gmail.com
-
 [alias]
   co = checkout
   s = status
@@ -14,7 +10,7 @@
 
 [core]
   ignorecase = false
-  excludesFiles = /Users/jk/.gitignore
+  excludesFile = ~/.gitignore
 
 [pull]
   rebase = false
