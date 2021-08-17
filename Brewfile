@@ -27,3 +27,8 @@ cask "visual-studio-code"
 mas "KakaoTalk", id: 869223134
 mas "LINE", id: 539883307
 mas "Xcode", id: 497799835
+
+# fonts
+cask 'homebrew/cask-fonts/font-meslo-lg-nerd-font'
+cask 'homebrew/cask-fonts/font-meslo-for-powerline'
+cask 'homebrew/cask-fonts/font-fontawesome'
