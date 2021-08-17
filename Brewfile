@@ -33,6 +33,5 @@ cask "rectangle"
 cask "visual-studio-code"
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
-mas "Microsoft To Do", id: 1274495053
 mas "Xcode", id: 497799835
 mas "카카오톡", id: 869223134
