@@ -1,6 +1,6 @@
 configFile="private.json"
 
-init() {
+initConfig() {
   rm -rf ~/.custom-config.zsh ~/.gitconfig ~/.gitignore ~/.vimrc ~/.vim
   cp -a ~/env/shell/ ~
   LINE='[[ ! -f ~/.custom-config.zsh ]] || source ~/.custom-config.zsh'
@@ -16,7 +16,7 @@ readFile() {
   fi
 }
 
-ask() {
+askInput() {
   read -r -p "Input $1 : " input
   echo "$input"
 }
@@ -24,8 +24,8 @@ ask() {
 askCommand() {
   read -r -p "Use this? (name: $name email: $email) (Enter/N) : " useThis
   if [ "$useThis" = "N" ]; then
-    name=$(ask "name")
-    email=$(ask "email")
+    name=$(askInput "name")
+    email=$(askInput "email")
     initGit "$name" "$email"
   fi
   initGit "$name" "$email"
@@ -41,6 +41,6 @@ initGit() {
   echo "{ \"name\": \"$1\", \"email\": \"$2\" }" > $configFile
 }
 
-init
+initConfig
 readFile
 askCommand
