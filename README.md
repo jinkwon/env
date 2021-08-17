@@ -58,3 +58,9 @@ https://sipapp.io/updates/#2.5
 
 ## Programs
 see Brewfile
+
+
+## cli tools
+- ccat
+- fzf
+- jq
