@@ -7,7 +7,7 @@ alias yd="yarn run dev"
 alias yb="yarn run build"
 # git
 alias gclr="git branch --merged | grep -v \* | xargs git branch -D "
-alias gld="git pull origin dev && gclr && git fetch -p"
+alias gd="git pull origin dev && gclr && git fetch -p"
 alias gs="git status"
 alias gl="git pull origin $1"
 alias gp="git push origin $1"
