@@ -24,3 +24,7 @@ cask "lens"
 cask "notion"
 cask "rectangle"
 cask "visual-studio-code"
+mas "KakaoTalk", id: 869223134
+mas "LINE", id: 539883307
+mas "Xcode", id: 497799835
+mas "Jump Desktop (RDP, VNC, Fluid)", id: 524141863
