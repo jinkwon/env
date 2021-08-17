@@ -13,6 +13,7 @@ alias gl="git pull origin $1"
 alias gp="git push origin $1"
 alias gpf="git push origin $1 --force"
 alias gcam="git commit -am $1"
+alias grc="git config --local credential.helper ''"
 # ssh
 alias ssh-ad="ssh ubuntu@unicorn.alpha.db"
 alias ssh-as="ssh ubuntu@unicorn.alpha.server"
