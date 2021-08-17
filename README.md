@@ -6,10 +6,9 @@ https://iterm2.com/
 ## install brew
 https://brew.sh/index_ko
 
-## prepair
+## Prepare
 ```
 brew install git
-
 // install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
@@ -22,9 +21,12 @@ chmod 700 ~/env/*.sh
 
 ## Run script
 ```
-// init
+// init everything
 // 실행 후 터미널 껐다 켜기 (설정 적용)
 ~/init.sh
+
+// configure only
+~/configure.sh 
 ```
 
 ## help page (run in shell)
