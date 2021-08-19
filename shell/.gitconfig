@@ -2,15 +2,14 @@
   co = checkout
   s = status
   amd = commit --amend
-
 [http]
   postBuffer = 157286400
   version = HTTP/1.1
   sslVerify = true
-
 [core]
   ignorecase = false
   excludesFile = ~/.gitignore
-
 [pull]
   rebase = false
+[init]
+  defaultBranch = main
