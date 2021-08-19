@@ -1,7 +1,7 @@
 configFile="private.json"
 
 initConfig() {
-  rm -rf ~/.custom-config.zsh ~/.gitconfig ~/.gitignore ~/.vimrc ~/.vim
+  rm -rf ~/.custom-config.zsh ~/.custom-base.zsh ~/.gitconfig ~/.gitignore ~/.vimrc ~/.vim
   cp -a ~/env/shell/ ~
   LINE='[[ ! -f ~/.custom-config.zsh ]] || source ~/.custom-config.zsh'
   grep -qF -- "$LINE" ~/.zshrc || echo "$LINE" >> ~/.zshrc
