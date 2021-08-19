@@ -23,10 +23,10 @@ chmod 700 ~/env/*.sh
 ```
 // init everything
 // 실행 후 터미널 껐다 켜기 (설정 적용)
-~/init.sh
+~/env/init.sh
 
 // configure only
-~/configure.sh 
+~/env/configure.sh 
 ```
 
 ## help page (run in shell)
