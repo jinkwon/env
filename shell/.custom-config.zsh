@@ -18,11 +18,12 @@ alias grc="git config --local credential.helper 'cache'"
 alias ssh-ad="ssh ubuntu@unicorn.alpha.db"
 alias ssh-as="ssh ubuntu@unicorn.alpha.server"
 # kill
-kp(){
+_kp(){
   lsof -t -i tcp:$1 | xargs kill -9
 }
-kn(){
+_kn(){
   kill -9 `ps -ef | grep $1 | awk '{print $2}'`
 }
 # etc
-alias menu="ccat ~/.custom-config.zsh"
+alias _menu="ccat ~/.custom-config.zsh"
+alias _port="lsof -PiTCP -sTCP:LISTEN"
