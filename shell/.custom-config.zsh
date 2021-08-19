@@ -5,6 +5,7 @@ alias yi="yarn install"
 alias ys="yarn run start"
 alias yd="yarn run dev"
 alias yb="yarn run build"
+alias ya="yarn add $1 $2"
 # git
 alias gclr="git branch --merged | grep -v \* | xargs git branch -D "
 alias gd="git pull origin dev && gclr && git fetch -p"
