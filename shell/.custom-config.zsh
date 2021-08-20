@@ -1,4 +1,7 @@
 source ~/.custom-base.zsh
+# ssh
+alias ssh-ad="ssh ubuntu@unicorn.alpha.db"
+alias ssh-as="ssh ubuntu@unicorn.alpha.server"
 # yarn
 alias ycu="yarn-check -u"
 alias yi="yarn install"
@@ -16,9 +19,6 @@ alias gp="git push origin $1"
 alias gpf="git push origin $1 --force"
 alias gcam="git commit -am $1"
 alias grc="git config --local credential.helper 'cache'"
-# ssh
-alias ssh-ad="ssh ubuntu@unicorn.alpha.db"
-alias ssh-as="ssh ubuntu@unicorn.alpha.server"
 # kill
 _kp(){ lsof -t -i tcp:$1 | xargs kill -9; }
 _kn(){ kill -9 `ps -ef | grep $1 | awk '{print $2}'`; }
