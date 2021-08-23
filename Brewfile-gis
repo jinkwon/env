@@ -1,0 +1,9 @@
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "postgresql", restart_service: true
+brew "postgis"
+brew "tippecanoe"
+brew "gdal"
+cask "qgis"
+brew "redis"
