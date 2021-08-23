@@ -1,4 +1,5 @@
 brewPrefix=$(brew --prefix)
+export PATH=~:$PATH
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "${brewPrefix}/opt/nvm/nvm.sh" ] && . "${brewPrefix}/opt/nvm/nvm.sh"  # This loads nvm
