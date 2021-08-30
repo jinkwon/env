@@ -47,8 +47,7 @@ npm install -g yarn yarn-check @nestjs/cli pm2 http-server
 
 ### MacOS 에서 백쿼트(`) 입력 쉽게 하기
 ```
-mkdir -p ~/Library/KeyBindings
-cp ./environment/DefaultKeyBinding.dict ~/Library/KeyBindings/
+mkdir -p ~/Library/KeyBindings && cp ./environment/DefaultKeyBinding.dict ~/Library/KeyBindings/
 ```
 
 ## powerlevel10k 재설정
