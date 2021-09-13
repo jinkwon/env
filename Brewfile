@@ -34,6 +34,7 @@ cask "lens"
 cask "notion"
 cask "rectangle"
 cask "visual-studio-code"
+cask "korean-spelling-checker"
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
 mas "Xcode", id: 497799835
