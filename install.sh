@@ -1,3 +1,4 @@
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 brew bundle --file=~/env/Brewfile
 mkdir -p ~/.nvm
 rm -rf ~/._env ~/.oh-my-zsh/themes/powerlevel10k

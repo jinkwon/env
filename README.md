@@ -1,16 +1,14 @@
 # Front-end developer's env
 
-## install iterm
-https://iterm2.com/
-
 ## install brew
 https://brew.sh/index_ko
+```
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 ## Prepare
 ```
 brew install git
-// install oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 // clone env
 git clone https://github.com/jinkwon/env ~/env
