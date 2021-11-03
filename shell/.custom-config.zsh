@@ -3,7 +3,7 @@ source ~/.custom-base.zsh
 alias ssh-ad="ssh ubuntu@unicorn.alpha.db"
 alias ssh-as="ssh ubuntu@unicorn.alpha.server"
 # yarn
-alias ycu="yarn-check -u"
+alias ycu="yarn upgrade-interactive --latest"
 alias yi="yarn install"
 alias ys="yarn run start"
 alias yd="yarn run dev"
@@ -28,3 +28,4 @@ alias _port="lsof -PiTCP -sTCP:LISTEN"
 _dockerrmf(){ docker stop $1;docker rm $1; }
 #kube
 alias kube-ctx="kubectl config use-context $1"
+
