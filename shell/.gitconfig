@@ -9,6 +9,8 @@
 [core]
   ignorecase = false
   excludesFile = ~/.gitignore
+  quotepath = false
+  precomposeunicode = true
 [pull]
   rebase = false
 [init]
