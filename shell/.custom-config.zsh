@@ -19,6 +19,8 @@ alias gp="git push origin $1"
 alias gpf="git push origin $1 --force"
 alias gcam="git commit -am $1"
 alias grc="git config --local credential.helper 'cache'"
+alias hosts="sudo vim /etc/hosts"
+
 # kill
 _kp(){ lsof -t -i tcp:$1 | xargs kill -9; }
 _kn(){ kill -9 `ps -ef | grep $1 | awk '{print $2}'`; }
