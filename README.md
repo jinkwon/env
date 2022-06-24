@@ -29,7 +29,7 @@ chmod 700 ~/env/*.sh
 
 ## help page (run in shell)
 ```
-menu
+_menu
 ```
 
 ## install node
@@ -41,11 +41,6 @@ ln -s $(which node) /usr/local/bin/node
 // install packages
 // brew로 yarn 설치하면 이슈가 있음. node version 이 꼬임
 npm install -g yarn @nestjs/cli pm2 http-server
-```
-
-### MacOS 에서 백쿼트(`) 입력 쉽게 하기
-```
-mkdir -p ~/Library/KeyBindings && cp ./environment/DefaultKeyBinding.dict ~/Library/KeyBindings/
 ```
 
 ## powerlevel10k 재설정
