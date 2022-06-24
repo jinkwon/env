@@ -2,6 +2,11 @@
 
 ## install brew
 https://brew.sh/index_ko
+brew 설치 후 환경변수 설정
+```
+echo 'export PATH=/opt/homebrew/bin:$PATH' >> ~/.zshrc
+```
+
 ```
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
