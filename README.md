@@ -7,13 +7,11 @@ brew 설치 후 환경변수 설정
 echo 'export PATH=/opt/homebrew/bin:$PATH' >> ~/.zshrc
 ```
 
-```
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
-
 ## Prepare
 ```
 brew install git
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 // clone env
 git clone https://github.com/jinkwon/env ~/env
