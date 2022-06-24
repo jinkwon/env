@@ -28,6 +28,12 @@ _kn(){ kill -9 `ps -ef | grep $1 | awk '{print $2}'`; }
 alias _menu="ccat ~/.custom-config.zsh"
 alias _port="lsof -PiTCP -sTCP:LISTEN"
 _dockerrmf(){ docker stop $1;docker rm $1; }
+function randimg {
+   FILENAME=$(uuidgen)
+   wget "https://source.unsplash.com/random" -q -O $FILENAME.jpg
+}
 #kube
 alias kube-ctx="kubectl config use-context $1"
+
+
 
