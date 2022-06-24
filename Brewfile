@@ -4,7 +4,6 @@ tap "homebrew/cask-fonts"
 tap "homebrew/core"
 brew "autojump"
 brew "awscli"
-brew "cask"
 brew "ccat"
 brew "fzf"
 brew "git"
@@ -13,6 +12,7 @@ brew "jq"
 brew "mas"
 brew "nvm"
 brew "openjdk"
+brew "php"
 brew "redis"
 brew "tmux"
 brew "awscli"
@@ -24,6 +24,7 @@ brew "zsh-syntax-highlighting"
 cask "alfred"
 cask "dbeaver-community"
 cask "docker"
+cask "figma"
 cask "font-fontawesome"
 cask "font-meslo-for-powerline"
 cask "font-meslo-lg-nerd-font"
@@ -35,7 +36,8 @@ cask "notion"
 cask "rectangle"
 cask "visual-studio-code"
 cask "korean-spelling-checker"
+mas "Xcode", id: 497799835
 mas "Keynote", id: 409183694
 mas "LINE", id: 539883307
-mas "Xcode", id: 497799835
 mas "카카오톡", id: 869223134
+mas "Microsoft To Do", id: 1274495053
