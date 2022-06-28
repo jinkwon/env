@@ -3,7 +3,7 @@ source ~/.custom-base.zsh
 alias ssh-ad="ssh ubuntu@unicorn.alpha.db"
 alias ssh-as="ssh ubuntu@unicorn.alpha.server"
 # yarn
-alias ycu="yarn upgrade-interactive --latest"
+alias ycu="yarn upgrade-interactive"
 alias yi="yarn install"
 alias ys="yarn run start"
 alias yd="yarn run dev"
