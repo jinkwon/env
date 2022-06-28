@@ -51,6 +51,14 @@ npm install -g yarn @nestjs/cli pm2 http-server
 p10k configure
 ```
 
+## p10k branch 명 줄이지 않게
+https://stackoverflow.com/a/66003527
+
+```
+// ~/.pk10.zsh or ~/.p10k.zsh
+(( $#where > 32 )) && where[13,-13]="…"
+```
+
 ## Programs
 [Brewfile](https://github.com/jinkwon/env/blob/master/Brewfile)
 
