@@ -11,7 +11,7 @@ alias yb="yarn run build"
 alias ya="yarn add $1 $2"
 # git
 alias grrc="git rm -r --cached ."
-alias gclr="git branch --merged | grep -v \* | xargs git branch -D "
+alias gclr='git fetch -p && git branch --merged | grep -v "\*" | grep -v master | grep -v develop | xargs -n 1 git branch -d'
 alias gd="git pull origin dev && gclr && git fetch -p"
 alias gs="git status"
 alias gl="git pull origin $1"
