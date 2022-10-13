@@ -8,6 +8,8 @@
 	<string>3221C5EE-533E-4BBD-88BA-01070360516A</string>
 	<key>DisableWindowSizeSnap</key>
 	<integer>1</integer>
+	<key>EnableAPIServer</key>
+	<true/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HotkeyMigratedFromSingleToMulti</key>
