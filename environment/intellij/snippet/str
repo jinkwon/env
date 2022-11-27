@@ -1,0 +1,22 @@
+import { ComponentStory, ComponentMeta } from '@storybook/react';
+import React from 'react';
+
+import $FILE_NAME$ from './index';
+
+export default {
+  title: 'Components/$FILE_NAME$',
+  argTypes: {
+    selectOpt: { control: 'select', options: ['default', 'primary', 'secondary', 'link'] },
+    textOpt: { control: 'text', name: 'width' },
+    booleanOpt: { control: 'boolean' },
+  }
+} as ComponentMeta<typeof $FILE_NAME$>;
+
+const Template: ComponentStory<typeof $FILE_NAME$> = ({ ...args }) => <$FILE_NAME$ {...args} />;
+
+export const Default = Template.bind({});
+Default.args = {
+  selectOpt: 'default',
+  textOpt: '',
+  booleanOpt: false,
+};
