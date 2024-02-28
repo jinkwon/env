@@ -20,6 +20,7 @@ alias gpf="git push origin $1 --force"
 alias gcam="git commit -am $1"
 alias grc="git config --local credential.helper 'cache'"
 alias hosts="sudo vim /etc/hosts"
+alias gclrt="git tag -l | xargs git tag -d"
 
 # kill
 _kp(){ lsof -t -i tcp:$1 | xargs kill -9; }
