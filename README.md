@@ -37,7 +37,7 @@ _menu
 
 ## install node
 ```
-nvm install 14
+nvm install 20
 // /usr/local/bin/node 는 나중에 react native를 위해 연결해둠
 ln -s $(which node) /usr/local/bin/node
 
