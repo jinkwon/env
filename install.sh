@@ -1,9 +1,3 @@
-# ohmyzsh 설치
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-
-# brew deps 설치
-brew bundle --file=~/env/Brewfile
-
 # nvm 환경 폴더 추가
 mkdir -p ~/.nvm
 
@@ -20,3 +14,6 @@ brewPrefix=$(brew --prefix)
 
 # MacOS 에서 백쿼트(`) 입력 쉽게 하기
 mkdir -p ~/Library/KeyBindings && cp ./environment/DefaultKeyBinding.dict ~/Library/KeyBindings/
+
+# brew deps 설치
+brew bundle --file=~/env/Brewfile

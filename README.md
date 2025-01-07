@@ -3,15 +3,17 @@
 ## install brew
 https://brew.sh/index_ko
 brew 설치 후 환경변수 설정
-```
-echo 'export PATH=/opt/homebrew/bin:$PATH' >> ~/.zshrc
-```
 
 ## Prepare
 ```
+// git 설치
 brew install git
 
+// oh-my-zsh 설치
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+// brew 환경 설정 후 shell 재시작
+echo 'export PATH=/opt/homebrew/bin:$PATH' >> ~/.zshrc
 
 // clone env
 git clone https://github.com/jinkwon/env ~/env
