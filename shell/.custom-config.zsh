@@ -9,6 +9,11 @@ alias ys="yarn run start"
 alias yd="yarn run dev"
 alias yb="yarn run build"
 alias ya="yarn add $1 $2"
+
+# npm
+alias nd="npm run dev"
+alias ys="npm run start"
+
 # git
 alias grrc="git rm -r --cached ."
 alias gclr='git fetch -p && git branch --merged | grep -v "\*" | grep -v release | grep -v main | grep -v master | grep -v develop | xargs -n 1 git branch -d'
