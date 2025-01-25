@@ -12,7 +12,8 @@ alias ya="yarn add $1 $2"
 
 # npm
 alias nd="npm run dev"
-alias ys="npm run start"
+alias ns="npm run start"
+alias nb="npm run build"
 
 # git
 alias grrc="git rm -r --cached ."
