@@ -28,6 +28,8 @@ alias grc="git config --local credential.helper 'cache'"
 alias hosts="sudo vim /etc/hosts"
 alias gclrt="git tag -l | xargs git tag -d"
 
+alias pgg="ssh -p 443 -R0:localhost:3000 a.pinggy.io"
+
 # kill
 _kp(){ lsof -t -i tcp:$1 | xargs kill -9; }
 _kn(){ kill -9 `ps -ef | grep $1 | awk '{print $2}'`; }
