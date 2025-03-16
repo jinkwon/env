@@ -1,5 +1,7 @@
 configFile="private.json"
 
+corepack enable
+
 initConfig() {
   rm -rf ~/.custom-config.zsh ~/.custom-base.zsh ~/.gitconfig ~/.gitignore ~/.vimrc ~/.vim
   cp -a ~/env/shell/ ~
