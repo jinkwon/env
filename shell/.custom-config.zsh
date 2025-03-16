@@ -28,8 +28,6 @@ alias grc="git config --local credential.helper 'cache'"
 alias hosts="sudo vim /etc/hosts"
 alias gclrt="git tag -l | xargs git tag -d"
 
-alias pgg="ssh -p 443 -R0:localhost:3000 a.pinggy.io"
-
 # kill
 _kp(){ lsof -t -i tcp:$1 | xargs kill -9; }
 _kn(){ kill -9 `ps -ef | grep $1 | awk '{print $2}'`; }
@@ -37,12 +35,8 @@ _kn(){ kill -9 `ps -ef | grep $1 | awk '{print $2}'`; }
 alias _menu="ccat ~/.custom-config.zsh"
 alias _port="lsof -PiTCP -sTCP:LISTEN"
 _dockerrmf(){ docker stop $1;docker rm $1; }
-function randimg {
-   FILENAME=$(uuidgen)
-   wget "https://source.unsplash.com/random" -q -O $FILENAME.jpg
-}
+
 #kube
 alias kube-ctx="kubectl config use-context $1"
 
-
-
+alias pinggy="ssh -p 443 -R0:localhost:3000 qr@a.pinggy.io"
