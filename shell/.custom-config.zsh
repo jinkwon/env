@@ -39,4 +39,6 @@ _dockerrmf(){ docker stop $1;docker rm $1; }
 #kube
 alias kube-ctx="kubectl config use-context $1"
 
+alias ngr="ngrok start jk"
+
 alias pinggy="ssh -p 443 -R0:localhost:3000 qr@a.pinggy.io"

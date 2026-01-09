@@ -7,6 +7,8 @@ set -e  # 에러 발생 시 스크립트 중단
 
 configFile="private.json"
 
+corepack enable
+
 # 필수 명령어 확인
 checkCommand() {
   if ! command -v "$1" &> /dev/null; then
